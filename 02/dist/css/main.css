@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "webfont";
+  font-display: swap;
+  src: url(../webfont.woff) format("woff");
+}
+body {
+  font-family: "webfont" !important;
+  background: url(../images/gj.jpg) 0 0 no-repeat;
+  height: 400px;
+  font-size: 20px;
+}
+body div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid red;
+}
+
